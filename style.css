@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;
+  margin: 0;
+}
+
+#app {
+  background: fff;
+  padding: 20px;
+  box-shadow: 0 0 10pc rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 400px;
+}
+
+#app h1 {
+  margin:  0 0 20px;
+}
+
+#task-input {
+  width: calc(100% - 100px);
+  padding: 10px;
+  margin-right: 10px;  
+}
+
+#task-input {
+  width: calc(100% - 100px);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#add-task-button {
+  padding: 10px;
+}
+
+#task-list li {
+  padding: 10px;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#task-list:last-child {
+  border-bottom: none;  
+}
+
+.delete-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
